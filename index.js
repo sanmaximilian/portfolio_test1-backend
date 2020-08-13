@@ -20,11 +20,12 @@ app.get('/portfolio', (req,res)=>{
 
 // inicializar ruta para el Raiz!
 
-/*
+
 app.get('/', (req,res)=>{
+    res.send("Esto es el Raiz, por favor no hackear por que me da ansieda")
     
 });
-*/
+
 
 
 //fin de rutas
