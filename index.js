@@ -1,3 +1,31 @@
+const express = require("express");
+const cors = require("cors");
+const app = express();
+
+app.use(cors()); 
+
+const port = process.env.PORT || 8080;
+
+const about = require("./JSON/About.json");
+const portfolio = require("./JSON/Portfolio.json");
+
+app.get('/', (req, res) => {
+    res.send("Esto es el Raiz, por favor no hackear por que me da ansieda")
+});
+
+app.get('/about', (req, res) => {
+    res.json(about)
+});
+
+app.get('/portfolio', (req, res) => {
+    res.json(portfolio)
+});
+
+
+app.listen(port, () => {
+    console.log(`Server on : ${port}`)
+});
+/*
 // Inicialicion del server
 const express = require ("express");
 const cors = require ("cors");
@@ -39,3 +67,4 @@ const port= process.env.PORT || 8080;
 
 app.listen(port,()=>{console.log(`Server on: , ${port}`)});
 
+*/
