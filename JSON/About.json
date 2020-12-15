@@ -1,7 +1,7 @@
 [
     {
         "name": "Santiago Maximiliano Bomba",
-        "profession" : "Developer",
+        "profession" : ["Developer", "UX/UI Designer/developer", "Graphic Designer"],
         "photo" : "https://i.ibb.co/GHx2Zzm/foto-perfil-resized-2-Convert-Image.jpg",
         "about_me" : "Soy una entusiasta de las tecnologías, amo hacer desarrollo web y confío en la colaboración entre comunidades para lograr un mejor ecosistema en el ambito de la tecnologia.",
         "skills": [
@@ -9,6 +9,7 @@
         "NodeJs",
         "ReactJS",
         "Angular",
+        "PHP",
         "HTML",
         "CSS",
         "MySQL",
